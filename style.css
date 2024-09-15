@@ -23,7 +23,7 @@ padding: 8px;
 }
 
 body > header {
-background-color: orange;
+background-color: brown;
 color: white;
 display: flex;
 height: 12vh;
@@ -100,7 +100,7 @@ h2 {
 }
 
 body > footer {
-background-color: orange;
+background-color: brown;
 }
 
 img {
