@@ -1,0 +1,121 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+#logo {
+    margin: 0px;
+    font-style: "bold";
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    box-shadow: 8px 8px 10px 3px lightcyan;
+    width: 16%;
+    border-radius: 20%;
+}
+
+ul {
+    margin: 0px;
+}
+
+h1 {
+margin: 10px 100px;
+padding: 8px;
+}
+
+body > header {
+background-color: orange;
+color: white;
+display: flex;
+height: 12vh;
+align-items: center;
+justify-content: space-between;
+}
+
+#nav-ul {
+    display:flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+body > header > nav > ul > li {
+    margin: 0 15px;         /* Add horizontal spacing between items */
+}
+
+body > header > nav > ul > li > a {
+    text-decoration: none;  /* Remove underline from links */
+    color: #000;            /* Set link text color */
+    font-size: 18px;        /* Set link font size */
+    font-family: Arial, sans-serif; /* Set font family */
+}
+
+body > header > nav > ul > li > a:hover {
+    color: #007BFF; 
+}
+
+
+.navbutton {
+    color: white;
+    text-decoration:none ;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+}
+
+#main-content aside {
+    width: 20%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+background-color: orange;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li{
+    margin-left: 12px;
+}
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
